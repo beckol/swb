@@ -54,6 +54,40 @@ class LLMChatServiceTests(unittest.TestCase):
         self.assertEqual(events, ["extract", "chat"])
         self.assertEqual(result, "Danke für die Angaben.")
 
+    def test_extract_uses_customer_messages_not_assistant_replies(self) -> None:
+        history = [
+            {
+                "role": "user",
+                "content": (
+                    "Ich bin Privatkunde aus Bremen. Mein Jahresverbrauch ist "
+                    "etwa 1200 kWh und ich komme aus Bremen."
+                ),
+            },
+            {
+                "role": "assistant",
+                "content": (
+                    "Sie sind Geschäftskunde aus Weyhe mit 12.000 kWh."
+                ),
+            },
+        ]
+        result_json = (
+            '{"kunde_typ":"Privatkunde","stromverbrauch":1200,"ort":"Bremen"}'
+        )
+        response = SimpleNamespace(
+            message=SimpleNamespace(content=result_json)
+        )
+        service = LLMChatService()
+
+        with patch.object(service._client, "chat", return_value=response) as chat:
+            result = service.extract_tariff_info(history)
+
+        sent_messages = chat.call_args.kwargs["messages"]
+        self.assertEqual([message["role"] for message in sent_messages], ["system", "user"])
+        self.assertIn("1200 kWh", sent_messages[-1]["content"])
+        self.assertEqual(result["kunde_typ"], "Privatkunde")
+        self.assertEqual(result["stromverbrauch"], 1200)
+        self.assertEqual(result["ort"], "Bremen")
+
 
 if __name__ == "__main__":
     unittest.main()

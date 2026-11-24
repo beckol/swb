@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 class RAGIndex:
     def __init__(
         self,
-        data_dir: Path | str = ROOT / "data",
+        data_dir: Path | str = ROOT / "data/inputs",
         storage_dir: Path | str = ROOT / "data" / ".llamaindex",
         ollama_host: str | None = None,
         embedding_model: str | None = None,
@@ -62,7 +62,7 @@ class RAGIndex:
         self.index = VectorStoreIndex.from_documents(
             documents,
             embed_model=self.embed_model,
-            transformations=[TokenTextSplitter(chunk_size=1024, chunk_overlap=200)],
+            transformations=[TokenTextSplitter(chunk_size=200, chunk_overlap=50)],
         )
         self.index.storage_context.persist(persist_dir=str(self.storage_dir))
         return len(self.index.index_struct.nodes_dict)
