@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.py[cod]
+data/.rag-index.json
+data/.chroma/
+data/.llamaindex/

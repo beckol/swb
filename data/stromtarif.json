@@ -1,0 +1,350 @@
+{
+  "tariffs": [
+    {
+      "name": "swb Strom basis",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Strom-Grundversorgungstarif (Niederspannung). Die Nettopreise verstehen sich inkl. Netznutzungsentgelte, Messstellenbetrieb-Entgelt, Umlagen, Abgaben, Energiesteuer und Mehrwertsteuer.",
+      "consumption_range": "Keine Grenze",
+      "prices": "Grundpreis: 132,66 EUR/Jahr brutto (111,48 EUR/Jahr netto); 139,09 EUR/Jahr brutto (116,88 EUR/Jahr netto); Verbrauchspreis: 30,46 ct/kWh brutto (25,60 ct/kWh netto); 36,51 ct/kWh brutto (30,68 ct/kWh netto)",
+      "region": "Bremen"
+    },
+    {
+      "name": "swb Strom von hier",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Strom aus Bremer Anlagen",
+      "consumption_range": "bis 10.000",
+      "prices": "Grundpreis: 132,66 EUR/Jahr brutto (111,48 EUR/Jahr netto); 139,09 EUR/Jahr brutto (116,88 EUR/Jahr netto); Verbrauchspreis: 30,36 ct/kWh brutto (25,51 ct/kWh netto); 36,28 ct/kWh brutto (30,49 ct/kWh netto)",
+      "region": "Bremen"
+    },
+    {
+      "name": "swb Strom spar S",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Unter 1.000 kWh erfolgt die Abrechnung zu Preisen von swb Strom basis",
+      "consumption_range": "mind. 1.000 bis 2.200",
+      "prices": "Grundpreis: 81,40 EUR/Jahr brutto (68,40 EUR/Jahr netto); 87,82 EUR/Jahr brutto (73,80 EUR/Jahr netto); Verbrauchspreis: 31,20 ct/kWh brutto (26,22 ct/kWh netto); 37,25 ct/kWh brutto (31,30 ct/kWh netto)",
+      "region": "Bremen"
+    },
+    {
+      "name": "swb Strom spar L",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Unter 1.000 kWh erfolgt die Abrechnung zu Preisen von swb Strom basis",
+      "consumption_range": "ab 2.200 bis 10.000",
+      "prices": "Grundpreis: 115,81 EUR/Jahr brutto (97,32 EUR/Jahr netto); 122,24 EUR/Jahr brutto (102,72 EUR/Jahr netto); Verbrauchspreis: 29,65 ct/kWh brutto (24,92 ct/kWh netto); 35,70 ct/kWh brutto (30,00 ct/kWh netto)",
+      "region": "Bremen"
+    },
+    {
+      "name": "swb Strom Business",
+      "customer_types": [
+        "Business"
+      ],
+      "description": "Für Unternehmen mit ungleichmäßigem Stromverbrauch ohne Leistungsmessung interessant, deren Jahresverbräuche zwischen 10.000 und 100.000 kWh liegen. Auch mit monatlicher Abrechnung erhältlich – hierfür entstehen zusätzliche Kosten. (Günstigere Konzessionsabgabe bei vorhandenem HT-/ NT-Zähler in der NT-Zeit sowie 1 % Rabatt auf Nettoverbrauchspreis für NT-Verbrauch)",
+      "consumption_range": "mind. 10.000 bis 100.000",
+      "prices": "Grundpreis: 58,831 EUR/Jahr brutto (49,44 EUR/Jahr netto); 58,831 EUR/Jahr brutto (49,44 EUR/Jahr netto); Verbrauchspreis: 13,421 ct/kWh brutto (11,28 ct/kWh netto); 18,271 ct/kWh brutto (15,35 ct/kWh netto)",
+      "region": "Bremen"
+    },
+    {
+      "name": "swb Strom dynamisch",
+      "customer_types": [
+        "Privatperson",
+        "Business"
+      ],
+      "description": "Strom für Kunden mit hohem, steuerbarem Verbrauch, die die Preisschwankungen an der Strombörse nutzen wollen. Voraussetzung ist ein intelligentes Messsystem.",
+      "consumption_range": "Keine Grenze",
+      "prices": "Grundpreis: Alle Informationen finden Sie unter swb.de/strom-dynamisch; Verbrauchspreis: Alle Informationen finden Sie unter swb.de/strom-dynamisch",
+      "region": "Bremen"
+    },
+    {
+      "name": "swb Strom Ersatzversorgung",
+      "customer_types": [
+        "Business"
+      ],
+      "description": "Strom-Tarif für die Ersatzversorgung für Nicht-Haushaltskunden.",
+      "consumption_range": "Keine Grenze",
+      "prices": "Grundpreis: Den jeweils gültigen Preis finden Sie unter swb.de/geschaeftskunden/strom/ersatzversorgung; Verbrauchspreis: Den jeweils gültigen Preis finden Sie unter swb.de/geschaeftskunden/strom/ersatzversorgung",
+      "region": "Bremen"
+    },
+    {
+      "name": "swb Strom RLM",
+      "customer_types": [
+        "Business",
+        "Großkonzern"
+      ],
+      "description": "Produkt für Niederspannungskunden mit einem Jahresverbrauch von mehr als 100.000 kWh sowie für Kunden der Mittelspannung.",
+      "consumption_range": "Keine Grenze",
+      "prices": "Grundpreis: Gern erstellen wir für Sie ein individuelles Angebot!; Verbrauchspreis: Gern erstellen wir für Sie ein individuelles Angebot!",
+      "region": "Bremen"
+    },
+    {
+      "name": "swb Strom basis",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Strom-Grundversorgungstarif (Niederspannung). Die Nettopreise verstehen sich inkl. Netznutzungsentgelte, Messstellenbetrieb-Entgelt, Umlagen, Abgaben, Energiesteuer und Mehrwertsteuer.",
+      "consumption_range": "Keine Grenze",
+      "prices": "Grundpreis: 138,80 EUR/Jahr brutto (116,64 EUR/Jahr netto); 139,09 EUR/Jahr brutto (116,88 EUR/Jahr netto); Verbrauchspreis: 29,85 ct/kWh brutto (25,08 ct/kWh netto); 35,37 ct/kWh brutto (29,72 ct/kWh netto)",
+      "region": "Bremerhaven"
+    },
+    {
+      "name": "swb Strom von hier",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Strom aus Bremer Anlagen",
+      "consumption_range": "bis 10.000",
+      "prices": "Grundpreis: 138,66 EUR/Jahr brutto (116,52 EUR/Jahr netto); 138,94 EUR/Jahr brutto (116,76 EUR/Jahr netto); Verbrauchspreis: 29,74 ct/kWh brutto (24,99 ct/kWh netto); 35,14 ct/kWh brutto (29,53 ct/kWh netto)",
+      "region": "Bremerhaven"
+    },
+    {
+      "name": "swb Strom spar S",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Unter 1.000 kWh erfolgt die Abrechnung zu Preisen von swb Strom basis",
+      "consumption_range": "mind. 1.000 bis 2.200",
+      "prices": "Grundpreis: 87,39 EUR/Jahr brutto (73,44 EUR/Jahr netto); 87,68 EUR/Jahr brutto (73,68 EUR/Jahr netto); Verbrauchspreis: 30,58 ct/kWh brutto (25,70 ct/kWh netto); 36,10 ct/kWh brutto (30,34 ct/kWh netto)",
+      "region": "Bremerhaven"
+    },
+    {
+      "name": "swb Strom spar L",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Unter 1.000 kWh erfolgt die Abrechnung zu Preisen von swb Strom basis",
+      "consumption_range": "ab 2.200 bis 10.000",
+      "prices": "Grundpreis: 121,81 EUR/Jahr brutto (102,36 EUR/Jahr netto); 122,09 EUR/Jahr brutto (102,60 EUR/Jahr netto); Verbrauchspreis: 29,04 ct/kWh brutto (24,40 ct/kWh netto); 34,56 ct/kWh brutto (29,04 ct/kWh netto)",
+      "region": "Bremerhaven"
+    },
+    {
+      "name": "swb Strom Business",
+      "customer_types": [
+        "Business"
+      ],
+      "description": "Für Unternehmen mit ungleichmäßigem Stromverbrauch ohne Leistungsmessung interessant, deren Jahresverbräuche zwischen 10.000 und 100.000 kWh liegen. Auch mit monatlicher Abrechnung erhältlich – hierfür entstehen zusätzliche Kosten. (Günstigere Konzessionsabgabe bei vorhandenem HT-/ NT-Zähler in der NT-Zeit sowie 1 % Rabatt auf Nettoverbrauchspreis für NT-Verbrauch)",
+      "consumption_range": "mind. 10.000 bis 100.000",
+      "prices": "Grundpreis: 58,83 EUR/Jahr brutto (49,44 EUR/Jahr netto); 58,83 EUR/Jahr brutto (49,44 EUR/Jahr netto); Verbrauchspreis: 13,42 ct/kWh brutto (11,28 ct/kWh netto); 18,27 ct/kWh brutto (15,35 ct/kWh netto)",
+      "region": "Bremerhaven"
+    },
+    {
+      "name": "swb Strom dynamisch",
+      "customer_types": [
+        "Business"
+      ],
+      "description": "Strom für Kunden mit hohem, steuerbarem Verbrauch, die die Preisschwankungen an der Strombörse nutzen wollen. Voraussetzung ist ein intelligentes Messsystem.",
+      "consumption_range": "Keine Grenze",
+      "prices": "Grundpreis: Alle Informationen finden Sie unter swb.de/strom-dynamisch; Verbrauchspreis: Alle Informationen finden Sie unter swb.de/strom-dynamisch",
+      "region": "Bremerhaven"
+    },
+    {
+      "name": "swb Strom Ersatzversorgung",
+      "customer_types": [
+        "Business"
+      ],
+      "description": "Strom-Tarif für die Ersatzversorgung für Nicht-Haushaltskunden.",
+      "consumption_range": "Keine Grenze",
+      "prices": "Grundpreis: Den jeweils gültigen Preis finden Sie unter swb.de/geschaeftskunden/strom/ersatzversorgung; Verbrauchspreis: Den jeweils gültigen Preis finden Sie unter swb.de/geschaeftskunden/strom/ersatzversorgung",
+      "region": "Bremerhaven"
+    },
+    {
+      "name": "swb Strom RLM",
+      "customer_types": [
+        "Business",
+        "Großkonzern"
+      ],
+      "description": "Produkt für Niederspannungskunden mit einem J ahresverbrauch von mehr als 100.000 kWh sowie für Kunden der Mittelspannung.",
+      "consumption_range": "Keine Grenze",
+      "prices": "Grundpreis: Gern erstellen wir für Sie ein individuelles Angebot!; Verbrauchspreis: Gern erstellen wir für Sie ein individuelles Angebot!",
+      "region": "Bremerhaven"
+    },
+    {
+      "name": "swb Strom von hier",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Strom aus Bremer Anlagen",
+      "consumption_range": "bis 10.000",
+      "prices": "Grundpreis: 149,51 EUR/Jahr brutto (125,64 EUR/Jahr netto); 150,65 EUR/Jahr brutto (126,60 EUR/Jahr netto); Verbrauchspreis: 30,38 ct/kWh brutto (25,53 ct/kWh netto); 36,56 ct/kWh brutto (30,72 ct/kWh netto)",
+      "region": "Stuhr"
+    },
+    {
+      "name": "swb Strom von hier",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Strom aus Bremer Anlagen",
+      "consumption_range": "bis 10.000",
+      "prices": "Grundpreis: 149,51 EUR/Jahr brutto (125,64 EUR/Jahr netto); 150,65 EUR/Jahr brutto (126,60 EUR/Jahr netto); Verbrauchspreis: 30,38 ct/kWh brutto (25,53 ct/kWh netto); 36,56 ct/kWh brutto (30,72 ct/kWh netto)",
+      "region": "Weyhe"
+    },
+    {
+      "name": "swb Strom von hier",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Strom aus Bremer Anlagen",
+      "consumption_range": "bis 10.000",
+      "prices": "Grundpreis: 149,51 EUR/Jahr brutto (125,64 EUR/Jahr netto); 150,65 EUR/Jahr brutto (126,60 EUR/Jahr netto); Verbrauchspreis: 30,38 ct/kWh brutto (25,53 ct/kWh netto); 36,56 ct/kWh brutto (30,72 ct/kWh netto)",
+      "region": "Thedinghausen"
+    },
+    {
+      "name": "swb Strom spar S",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Unter 1.000 kWh erfolgt die Abrechnung zu Preisen von swb Strom basis",
+      "consumption_range": "mind. 1.000 bis 2.200",
+      "prices": "Grundpreis: 98,25 EUR/Jahr brutto (82,56 EUR/Jahr netto); 99,39 EUR/Jahr brutto (83,52 EUR/Jahr netto); Verbrauchspreis: 31,13 ct/kWh brutto (25,70 ct/kWh netto); 37,43 ct/kWh brutto (31,45 ct/kWh netto)",
+      "region": "Stuhr"
+    },
+    {
+      "name": "swb Strom spar S",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Unter 1.000 kWh erfolgt die Abrechnung zu Preisen von swb Strom basis",
+      "consumption_range": "mind. 1.000 bis 2.200",
+      "prices": "Grundpreis: 98,25 EUR/Jahr brutto (82,56 EUR/Jahr netto); 99,39 EUR/Jahr brutto (83,52 EUR/Jahr netto); Verbrauchspreis: 31,13 ct/kWh brutto (25,70 ct/kWh netto); 37,43 ct/kWh brutto (31,45 ct/kWh netto)",
+      "region": "Weyhe"
+    },
+    {
+      "name": "swb Strom spar S",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Unter 1.000 kWh erfolgt die Abrechnung zu Preisen von swb Strom basis",
+      "consumption_range": "mind. 1.000 bis 2.200",
+      "prices": "Grundpreis: 98,25 EUR/Jahr brutto (82,56 EUR/Jahr netto); 99,39 EUR/Jahr brutto (83,52 EUR/Jahr netto); Verbrauchspreis: 31,13 ct/kWh brutto (25,70 ct/kWh netto); 37,43 ct/kWh brutto (31,45 ct/kWh netto)",
+      "region": "Thedinghausen"
+    },
+    {
+      "name": "swb Strom spar L",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Unter 1.000 kWh erfolgt die Abrechnung zu Preisen von swb Strom basis",
+      "consumption_range": "ab 2.200 bis 10.000",
+      "prices": "Grundpreis: 132,66 EUR/Jahr brutto (111,48 EUR/Jahr netto); 133,80 EUR/Jahr brutto (112,44 EUR/Jahr netto); Verbrauchspreis: 29,58 ct/kWh brutto (24,86 ct/kWh netto); 35,88 ct/kWh brutto (30,15 ct/kWh netto)",
+      "region": "Stuhr"
+    },
+    {
+      "name": "swb Strom spar L",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Unter 1.000 kWh erfolgt die Abrechnung zu Preisen von swb Strom basis",
+      "consumption_range": "ab 2.200 bis 10.000",
+      "prices": "Grundpreis: 132,66 EUR/Jahr brutto (111,48 EUR/Jahr netto); 133,80 EUR/Jahr brutto (112,44 EUR/Jahr netto); Verbrauchspreis: 29,58 ct/kWh brutto (24,86 ct/kWh netto); 35,88 ct/kWh brutto (30,15 ct/kWh netto)",
+      "region": "Weyhe"
+    },
+    {
+      "name": "swb Strom spar L",
+      "customer_types": [
+        "Privatperson"
+      ],
+      "description": "Unter 1.000 kWh erfolgt die Abrechnung zu Preisen von swb Strom basis",
+      "consumption_range": "ab 2.200 bis 10.000",
+      "prices": "Grundpreis: 132,66 EUR/Jahr brutto (111,48 EUR/Jahr netto); 133,80 EUR/Jahr brutto (112,44 EUR/Jahr netto); Verbrauchspreis: 29,58 ct/kWh brutto (24,86 ct/kWh netto); 35,88 ct/kWh brutto (30,15 ct/kWh netto)",
+      "region": "Thedinghausen"
+    },
+    {
+      "name": "swb Strom Business",
+      "customer_types": [
+        "Business"
+      ],
+      "description": "Für Unternehmen mit ungleichmäßigem Stromverbrauch ohne Leistungsmessung interessant, deren Jahresverbräuche zwischen 10.000 und 100.000 kWh liegen. Auch mit monatlicher Abrechnung erhältlich – hierfür entstehen zusätzliche Kosten. (Günstigere Konzessionsabgabe bei vorhandenem HT-/ NT-Zähler in der NT-Zeit sowie 1 % Rabatt auf Nettoverbrauchspreis für NT-Verbrauch)",
+      "consumption_range": "mind. 10.000 bis 100.000",
+      "prices": "Grundpreis: 58,83 EUR/Jahr brutto (49,44 EUR/Jahr netto); 58,83 EUR/Jahr brutto (49,44 EUR/Jahr netto); Verbrauchspreis: 13,42 ct/kWh brutto (11,28 ct/kWh netto); 18,27 ct/kWh brutto (15,35 ct/kWh netto)",
+      "region": "Stuhr"
+    },
+    {
+      "name": "swb Strom Business",
+      "customer_types": [
+        "Business"
+      ],
+      "description": "Für Unternehmen mit ungleichmäßigem Stromverbrauch ohne Leistungsmessung interessant, deren Jahresverbräuche zwischen 10.000 und 100.000 kWh liegen. Auch mit monatlicher Abrechnung erhältlich – hierfür entstehen zusätzliche Kosten. (Günstigere Konzessionsabgabe bei vorhandenem HT-/ NT-Zähler in der NT-Zeit sowie 1 % Rabatt auf Nettoverbrauchspreis für NT-Verbrauch)",
+      "consumption_range": "mind. 10.000 bis 100.000",
+      "prices": "Grundpreis: 58,83 EUR/Jahr brutto (49,44 EUR/Jahr netto); 58,83 EUR/Jahr brutto (49,44 EUR/Jahr netto); Verbrauchspreis: 13,42 ct/kWh brutto (11,28 ct/kWh netto); 18,27 ct/kWh brutto (15,35 ct/kWh netto)",
+      "region": "Weyhe"
+    },
+    {
+      "name": "swb Strom Business",
+      "customer_types": [
+        "Business"
+      ],
+      "description": "Für Unternehmen mit ungleichmäßigem Stromverbrauch ohne Leistungsmessung interessant, deren Jahresverbräuche zwischen 10.000 und 100.000 kWh liegen. Auch mit monatlicher Abrechnung erhältlich – hierfür entstehen zusätzliche Kosten. (Günstigere Konzessionsabgabe bei vorhandenem HT-/ NT-Zähler in der NT-Zeit sowie 1 % Rabatt auf Nettoverbrauchspreis für NT-Verbrauch)",
+      "consumption_range": "mind. 10.000 bis 100.000",
+      "prices": "Grundpreis: 58,83 EUR/Jahr brutto (49,44 EUR/Jahr netto); 58,83 EUR/Jahr brutto (49,44 EUR/Jahr netto); Verbrauchspreis: 13,42 ct/kWh brutto (11,28 ct/kWh netto); 18,27 ct/kWh brutto (15,35 ct/kWh netto)",
+      "region": "Thedinghausen"
+    },
+    {
+      "name": "swb Strom dynamisch",
+      "customer_types": [
+        "Business"
+      ],
+      "description": "Strom für Kunden mit hohem, steuerbarem Verbrauch, die die Preisschwankungen an der Strombörse nutzen wollen. Voraussetzung ist ein intelligentes Messsystem.",
+      "consumption_range": "Keine Grenze",
+      "prices": "Grundpreis: Alle Informationen finden Sie unter swb.de/strom-dynamisch; Verbrauchspreis: Alle Informationen finden Sie unter swb.de/strom-dynamisch",
+      "region": "Stuhr"
+    },
+    {
+      "name": "swb Strom dynamisch",
+      "customer_types": [
+        "Business"
+      ],
+      "description": "Strom für Kunden mit hohem, steuerbarem Verbrauch, die die Preisschwankungen an der Strombörse nutzen wollen. Voraussetzung ist ein intelligentes Messsystem.",
+      "consumption_range": "Keine Grenze",
+      "prices": "Grundpreis: Alle Informationen finden Sie unter swb.de/strom-dynamisch; Verbrauchspreis: Alle Informationen finden Sie unter swb.de/strom-dynamisch",
+      "region": "Weyhe"
+    },
+    {
+      "name": "swb Strom dynamisch",
+      "customer_types": [
+        "Business"
+      ],
+      "description": "Strom für Kunden mit hohem, steuerbarem Verbrauch, die die Preisschwankungen an der Strombörse nutzen wollen. Voraussetzung ist ein intelligentes Messsystem.",
+      "consumption_range": "Keine Grenze",
+      "prices": "Grundpreis: Alle Informationen finden Sie unter swb.de/strom-dynamisch; Verbrauchspreis: Alle Informationen finden Sie unter swb.de/strom-dynamisch",
+      "region": "Thedinghausen"
+    },
+    {
+      "name": "swb Strom RLM",
+      "customer_types": [
+        "Business",
+        "Großkonzern"
+      ],
+      "description": "Produkt für Niederspannungskunden mit einem J ahresverbrauch von mehr als 100.000 kWh sowie für Kunden der Mittelspannung.",
+      "consumption_range": "Keine Grenze",
+      "prices": "Grundpreis: Gern erstellen wir für Sie ein individuelles Angebot!; Verbrauchspreis: Gern erstellen wir für Sie ein individuelles Angebot!",
+      "region": "Stuhr"
+    },
+    {
+      "name": "swb Strom RLM",
+      "customer_types": [
+        "Business",
+        "Großkonzern"
+      ],
+      "description": "Produkt für Niederspannungskunden mit einem J ahresverbrauch von mehr als 100.000 kWh sowie für Kunden der Mittelspannung.",
+      "consumption_range": "Keine Grenze",
+      "prices": "Grundpreis: Gern erstellen wir für Sie ein individuelles Angebot!; Verbrauchspreis: Gern erstellen wir für Sie ein individuelles Angebot!",
+      "region": "Weyhe"
+    },
+    {
+      "name": "swb Strom RLM",
+      "customer_types": [
+        "Business",
+        "Großkonzern"
+      ],
+      "description": "Produkt für Niederspannungskunden mit einem J ahresverbrauch von mehr als 100.000 kWh sowie für Kunden der Mittelspannung.",
+      "consumption_range": "Keine Grenze",
+      "prices": "Grundpreis: Gern erstellen wir für Sie ein individuelles Angebot!; Verbrauchspreis: Gern erstellen wir für Sie ein individuelles Angebot!",
+      "region": "Thedinghausen"
+    }
+  ]
+}
